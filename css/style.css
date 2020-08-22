@@ -1,0 +1,17 @@
+:root {
+  --cup: #2f303a;
+  --background: #ffffff;
+  --section-team: #f5f4fa;
+  --footer: #2f303a;
+  --text-blue: #2196f3;
+  --text-black: #212121;
+  --text-white: #ffffff;
+  --text-grey: #757575;
+  --text-adres: rgba(255, 255, 255, 0.6);
+}
+
+.page-studio,
+.page-portfolio {
+  background-color: var(--background);
+  font-family: "Roboto", sans-serif;
+}
