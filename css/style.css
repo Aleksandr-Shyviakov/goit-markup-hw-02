@@ -100,6 +100,8 @@ li {
 
   align-items: center;
   text-align: center;
+
+  text-decoration: none;
 }
 
 .description-list {
@@ -112,8 +114,11 @@ li {
   font-weight: bold;
   color: var(--text-black);
 }
+
+/*
 .doing {
-}
+}*/
+
 .doing-title {
   font-weight: bold;
   font-size: 36px;
@@ -159,4 +164,37 @@ li {
   line-height: 24px;
 
   text-decoration: none;
+}
+
+/*  PORTFOLIO           */
+
+.buttons button {
+  color: var(--text-black);
+  background-color: var(--section-team);
+
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.buttons button:hover,
+.buttons button:focus {
+  color: var(--text-white);
+  background-color: var(--text-blue);
+}
+.portfolio-filter {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--text-grey);
+}
+.portfolio-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  color: var(--text-black);
+  letter-spacing: 0.06em;
 }
