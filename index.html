@@ -4,9 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-    <link rel="stylesheet" href="./css/normalize.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
@@ -15,20 +18,24 @@
     <header>
       <nav>
         <div>
-          <a href> WebStudio</a>
+          <a href class="logo"> Web<span class="logo-header">Studio</span></a>
         </div>
-        <div>
-          <ul>
-            <li><a href="./index.html" class="">Студия</a></li>
-            <li><a href="./portfolio.html" class="">Портфолио</a></li>
-            <li><a href="#">Контакты</a></li>
-          </ul>
-        </div>
-        <div>
-          <ul>
-            <li><a href="mailto:info@devstudio.com"> info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111"> +38 096 111 11 11</a></li>
-          </ul>
+        <div class="nav-contacts">
+          <div>
+            <ul>
+              <li><a href="./index.html" class="">Студия</a></li>
+              <li><a href="./portfolio.html" class="">Портфолио</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+          </div>
+          <div>
+            <ul>
+              <li>
+                <a href="mailto:info@devstudio.com"> info@devstudio.com</a>
+              </li>
+              <li><a href="tel:+380961111111"> +38 096 111 11 11</a></li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
@@ -138,7 +145,7 @@
     </main>
     <footer>
       <div>
-        <a href="">WebStudio</a>
+        <a href class="logo"> Web<span class="logo-footer">Studio</span></a>
       </div>
       <address>г. Киев, пр-т Леси Украинки, 26</address>
       <ul>
